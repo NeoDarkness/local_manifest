@@ -23,7 +23,7 @@ To initialize your local repository using the Turbo ROM trees, use this command:
 
 Also add the local manifests:
 
-    git clone https://github.com/CarlosArriagaCM/local_manifest -b cm-14.1 .repo/local_manifests
+	git clone https://github.com/CarlosArriagaCM/local_manifest -b cm-14.1 .repo/local_manifests
 
 Then sync up with this command:
 
@@ -38,14 +38,14 @@ _Building from source_
 
 First:
 
-	  cd ~/cm-14.1
+	cd ~/cm-14.1
 
 Second:
 
-	  $ echo "export USE_CCACHE=1" >> ~/.bashrc
-    $ ~/cm-14.1/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+	$ echo "export USE_CCACHE=1" >> ~/.bashrc
+	$ ~/cm-14.1/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 Third:
 
-    . build/envsetup.sh
-    brunch fortuna3g or brunch fortunave3g
+	. build/envsetup.sh
+	brunch fortuna3g or brunch fortunave3g
