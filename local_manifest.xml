@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/samsung/fortunave3g" name="CarlosArriagaCM/android_device_samsung_fortunave3g" remote="github" revision="cm-14.1" />
+    <!--project path="device/samsung/fortunave3g" name="CarlosArriagaCM/android_device_samsung_fortunave3g" remote="github" revision="cm-14.1" /-->
     <project path="device/samsung/fortuna3g" name="CarlosArriagaCM/android_device_samsung_fortuna3g" remote="github" revision="cm-14.1" />
     <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
@@ -11,7 +11,7 @@
     <project path="kernel/samsung/fortunaxx3g" name="CarlosArriagaCM/android_kernel_samsung_fortunaxx3g" remote="github" revision="cm-14.1" />
 
     <!-- vendor -->
-    <project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_samsung_fortunave3g" remote="github" revision="cm-14.1" />
+    <!--project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_samsung_fortunave3g" remote="github" revision="cm-14.1" /-->
     <project path="vendor/samsung/fortuna3g" name="ZIM555/android_vendor_samsung_fortuna3g" remote="github" revision="cm-14.1" />
     
     <!--extras-->		
