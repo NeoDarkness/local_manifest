@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/samsung/fortunaxx-common" name="Samsung-MSM8916/android_device_samsung_fortunaxx-common" remote="github" revision="lineage-14.1" />
-  <project path="device/samsung/fortunave3g" name="Samsung-MSM8916/android_device_samsung_fortunave3g" remote="github" revision="lineage-14.1" />
-  <project path="device/samsung/fortuna3g" name="Samsung-MSM8916/android_device_samsung_fortuna3g" remote="github" revision="lineage-14.1" />
-  <project path="device/samsung/fortunafz" name="Samsung-MSM8916/android_device_samsung_fortunafz" remote="github" revision="lineage-14.1" />
-  <project path="vendor/samsung/fortunaxx-common" name="Samsung-MSM8916/android_vendor_samsung_fortunaxx-common" remote="github" revision="cm-14.1" />
-  <project path="vendor/samsung/fortunave3g" name="Samsung-MSM8916/android_vendor_samsung_fortunave3g" remote="github" revision="cm-14.1" />
-  <project path="vendor/samsung/fortuna3g" name="Samsung-MSM8916/android_vendor_samsung_fortuna3g" remote="github" revision="cm-14.1" />
-  <project path="vendor/samsung/fortunafz" name="Samsung-MSM8916/android_vendor_samsung_fortunafz" remote="github" revision="cm-14.1" />
-  <project path="kernel/samsung/fortunaxx" name="Samsung-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="cm-14.1" />
-  
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
-  <project path="packages/resources/devicesettings" name="CyanogenMod/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-  
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1" />
-  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
+    <!-- device tree -->	
+    <project path="device/cyanogen/msm8916-common" name="CarlosArriagaCM/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
+    <project path="device/wingtech/wt88047" name="CarlosArriagaCM/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
+    <!-- kernel -->
+    <project path="kernel/wingtech/msm8916" name="CarlosArriagaCM/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
+
+    <!-- vendor -->
+    <project path="vendor/wingtech" name="TheMuppets/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
+    <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
+    
+    <!--extras-->		
+    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
+    <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+    
 </manifest>
