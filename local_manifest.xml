@@ -4,22 +4,16 @@
     <!-- device tree -->	
     <project path="device/cyanogen/msm8916-common" name="CarlosArriagaCM/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
     <project path="device/wingtech/wt88047" name="CarlosArriagaCM/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
-    <project path="device/lge/w5" name="LineageOS/android_device_lge_w5" remote="github" revision="cm-14.1" />
-    <project path="device/lge/msm8226-common" name="LineageOS/android_device_lge_msm8226-common" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
     <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="CarlosArriagaCM/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
-    <project path="kernel/lge/msm8226" name="LineageOS/android_kernel_lge_msm8226" remote="github" revision="cm-14.1" />
-
+    <project path="kernel/wingtech/msm8916" name="LineageOS/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
     <!-- vendor -->
     <project path="vendor/wingtech" name="TheMuppets/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
-    <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
     <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
     
     <!--extras-->		
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
     <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
     
 </manifest>
