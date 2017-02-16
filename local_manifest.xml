@@ -3,13 +3,13 @@
 
     <!-- device tree -->	
     <project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
-    <project path="device/wingtech/wt88047" name="LineageOS/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
+    <project path="device/wingtech/wt88047" name="NeoDarkness/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
     <!-- kernel -->
     <project path="kernel/wingtech/msm8916" name="CarlosArriagaCM/android_kernel_wingtech_msm8916" remote="github" revision="exp-n" />
     <!-- vendor -->
-    <project path="vendor/wingtech" name="TheMuppets/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
+    <project path="vendor/wingtech" name="NeoDarkness/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
     <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
     
     <!--extras-->		
