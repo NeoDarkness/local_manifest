@@ -4,13 +4,11 @@
     <!-- device tree -->	
     <project path="device/wingtech/wt88047" name="CarlosArriagaCM/android_device_wingtech_wt88047" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-
     <!-- kernel -->
     <project path="kernel/wingtech/msm8916" name="CarlosArriagaCM/android_kernel_wingtech_msm8916" remote="github" revision="DragonFire" />
     <!-- vendor -->
     <project path="vendor/wingtech" name="CarlosArriagaCM/proprietary_vendor_wingtech" remote="github" revision="cm-14.1" />
     <project path="vendor/qcom/binaries" name="ssawrav/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
-    
     <!--extras-->		
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
     <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
