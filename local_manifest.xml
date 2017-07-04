@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- device tree -->
-    <project path="device/xiaomi/wt88047" name="NeoDarkness/android_device_xiaomi_wt88047" remote="github" revision="cm-14.1" />
-    <project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-
-    <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="LineageOS/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
-
-    <!-- vendor -->
+    <!-- local -->
+    <project path="device/xiaomi/wt88047" name="NeoDarkness/android_device_xiaomi_wt88047" remote="github" revision="android-7.1" />
     <project path="vendor/xiaomi" name="NeoDarkness/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
 
-    <!--extras-->
-    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
+    <!-- lineageos -->
+    <project path="kernel/wingtech/msm8916" name="LineageOS/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
+
+    <!-- omnirom -->
+    <project path="external/stlport" name="omnirom/android_external_stlport" remote="github" revision="android-7.0" />
+    <project path="packages/apps/SnapdragonCamera" name="omnirom/android_packages_apps_SnapdragonCamera" remote="github" revision="android-7.1" />
+    <project path="device/qcom/sepolicy" name="omnirom/android_device_qcom_caf-sepolicy" remote="github" revision="android-7.1" />
+    <project path="packages/apps/FMRadio" name="omnirom/android_packages_apps_FMRadio" remote="github" revision="android-7.1" />
+    <project path="vendor/qcom/opensource/dataservices" name="omnirom/vendor_qcom_opensource_dataservices" remote="github" revision="android-7.1" />
+    <project path="hardware/qcom/fm" name="omnirom/android_hardware_qcom_fm" remote="github" revision="android-7.1" />
+    <project path="hardware/qcom/audio-caf-msm8916" name="omnirom/android_hardware_qcom_audio-caf-msm8916" remote="github" revision="android-7.1" />
+    <project path="hardware/qcom/display-caf-msm8916" name="omnirom/android_hardware_qcom_display-caf-msm8916" remote="github" revision="android-7.1" />
+    <project path="hardware/qcom/media-caf-msm8916" name="omnirom/android_hardware_qcom_media-caf-msm8916" remote="github" revision="android-7.1" />
+    <project path="external/ant-wireless/antradio-library" name="omnirom/android_external_ant-wireless_antradio-library" remote="github" revision="android-7.1" />
+    <project path="external/ant-wireless/ant_service" name="omnirom/android_external_ant-wireless_ant_service" remote="github" revision="android-7.1" />
+    <project path="external/ant-wireless/ant_native" name="omnirom/android_external_ant-wireless_ant_native" remote="github" revision="android-7.1" />
+    <project path="device/qcom/msm8916-common" name="omnirom/android_device_qcom_msm8916-common" remote="github" revision="android-7.1" />
 
 </manifest>
