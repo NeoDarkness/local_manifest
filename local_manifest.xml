@@ -4,7 +4,6 @@
     <!-- device tree -->
     <project path="device/xiaomi/wt88047" name="NeoDarkness/android_device_xiaomi_wt88047" remote="github" revision="cm-14.1" />
     <project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
     <!-- kernel -->
     <project path="kernel/wingtech/msm8916" name="LineageOS/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
