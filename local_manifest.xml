@@ -7,7 +7,7 @@
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
     <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="LineageOS/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
+    <project path="kernel/wingtech/msm8916" name="nicknitewolf/android_kernel_qcom_common" remote="github" revision="cm-14.1-caf-8916-cyngn" />
 
     <!-- vendor -->
     <project path="vendor/xiaomi" name="NeoDarkness/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
