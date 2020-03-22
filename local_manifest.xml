@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- device tree -->
-    <project path="device/xiaomi/mido" name="NeoDarkness/android_device_xiaomi_mido" remote="github" revision="pie" />
-
-    <!-- kernel -->
-    <project path="kernel/xiaomi/msm8953" name="zeelog/android_kernel_xiaomi_msm8953" remote="github" revision="lineage-16.0" />
-
-    <!-- vendor -->
+    <project path="device/xiaomi/mido" name="NeoDarkness/device_xiaomi_mido" remote="github" revision="rebase/aosp-9.0.0" />
+    <project path="kernel/xiaomi/msm8953" name="zeelog/android_kernel_xiaomi_mido" remote="github" revision="lineage-16.0" />
     <project path="vendor/xiaomi" name="zeelog/proprietary_vendor_xiaomi" remote="github" revision="lineage-16.0" />
-	
-	<!-- device settings -->
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
 	
 </manifest>
