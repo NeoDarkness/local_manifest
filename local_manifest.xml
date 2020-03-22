@@ -2,17 +2,15 @@
 <manifest>
 
     <!-- device tree -->
-    <project path="device/xiaomi/wt88047" name="NeoDarkness/android_device_xiaomi_wt88047" remote="github" revision="cm-14.1" />
-    <project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.1" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+    <project path="device/xiaomi/mido" name="NeoDarkness/android_device_xiaomi_mido" remote="github" revision="pie" />
 
     <!-- kernel -->
-    <project path="kernel/wingtech/msm8916" name="LineageOS/android_kernel_wingtech_msm8916" remote="github" revision="cm-14.1" />
+    <project path="kernel/xiaomi/msm8953" name="zeelog/android_kernel_xiaomi_msm8953" remote="github" revision="lineage-16.0" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi" name="NeoDarkness/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
-
-    <!--extras-->
-    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
-
+    <project path="vendor/xiaomi" name="zeelog/proprietary_vendor_xiaomi" remote="github" revision="lineage-16.0" />
+	
+	<!-- device settings -->
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+	
 </manifest>
